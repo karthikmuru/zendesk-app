@@ -12,7 +12,7 @@
   <h1>zcckarthikcorp</h1>
 
   <body class="main">
-    <%if @code != "200" %>
+    <%if @code != "200" && @code != nil%>
         ERROR : <%= @error %>
     <% else %>
       <%= yield %>

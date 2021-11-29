@@ -19,5 +19,6 @@ class AuthController < ApplicationController
   end
 
   def show
+    p @code
   end
 end
