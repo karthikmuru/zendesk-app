@@ -17,3 +17,10 @@ docker build --tag zendesk .
 docker run -p 3000:3000 zendesk
 ```
 5. The application can be accessed at : `localhost:3000/`
+
+Important changes : 
+```
+app/app/controllers/tickets_controller.rb
+app/app/controllers/application_controller.rb
+```
+
