@@ -2,7 +2,7 @@
 
 Framework : Ruby on Rails
 
-# Setup
+## Setup
 
 1. Install Docker.
 2. In the `./app/.env` file add the API key under the name `API_KEY`. The key must belong to a user of this account.
@@ -25,4 +25,9 @@ Important changes :
 app/app/controllers/tickets_controller.rb
 app/app/controllers/application_controller.rb
 ```
+
+## Sample output
+![alt text](https://github.com/karthikmuru/zendesk-app/blob/main/sample_output/ticket-list.png)
+![alt text](https://github.com/karthikmuru/zendesk-app/blob/main/sample_output/ticket-show.png)
+![alt text](http://url/to/img.png)
 
