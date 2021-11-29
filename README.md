@@ -27,7 +27,10 @@ app/app/controllers/application_controller.rb
 ```
 
 ## Sample output
+Ticket List
 ![alt text](https://github.com/karthikmuru/zendesk-app/blob/main/sample_output/ticket-list.png)
+Ticket Show
 ![alt text](https://github.com/karthikmuru/zendesk-app/blob/main/sample_output/ticket-show.png)
-![alt text](http://url/to/img.png)
+Error
+![alt text](https://github.com/karthikmuru/zendesk-app/blob/main/sample_output/ticket-error.png)
 
