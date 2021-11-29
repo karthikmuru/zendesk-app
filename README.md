@@ -1,5 +1,7 @@
 ## Zendesk Account : zcckarthikcorp.zendesk.com
 
+Framework : Ruby on Rails
+
 # Setup
 
 1. Install Docker.
