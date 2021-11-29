@@ -9,8 +9,13 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  <h1>zcckarthikcorp</h1>
 
   <body class="main">
-    <%= yield %>
+    <%if @code != "200" %>
+        ERROR : <%= @error %>
+    <% else %>
+      <%= yield %>
+    <% end %>
   </body>
 </html>

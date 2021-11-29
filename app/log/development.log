@@ -2313,3 +2313,818 @@ Processing by TicketsController#index as HTML
 Completed 200 OK in 500ms (Views: 11.8ms | Allocations: 6572)
 
 
+Started GET "/tickets/1" for 127.0.0.1 at 2021-11-28 23:31:55 -0700
+  
+SyntaxError (/Users/karthik/Desktop/ASU/job/Zendesk/test/zendesk-app/app/app/controllers/tickets_controller.rb:37: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/tickets_controller.rb:37: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/tickets_controller.rb:37: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/tickets_controller.rb:37: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/tickets/1" for 127.0.0.1 at 2021-11-28 23:33:01 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 156.0ms | Allocations: 11953)
+Completed 200 OK in 873ms (Views: 160.8ms | Allocations: 14891)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:33:54 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 485)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 4058)
+Completed 200 OK in 958ms (Views: 22.2ms | Allocations: 8204)
+
+
+Started GET "/tickets/6" for 127.0.0.1 at 2021-11-28 23:33:57 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3483)
+Completed 200 OK in 716ms (Views: 15.0ms | Allocations: 4972)
+
+
+Started GET "/tickets/12" for 127.0.0.1 at 2021-11-28 23:34:42 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"12"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 3483)
+Completed 200 OK in 381ms (Views: 52.5ms | Allocations: 4990)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:34:44 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3605)
+Completed 200 OK in 441ms (Views: 12.8ms | Allocations: 7290)
+
+
+Started GET "/tickets/15" for 127.0.0.1 at 2021-11-28 23:34:46 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"15"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3483)
+Completed 200 OK in 523ms (Views: 14.7ms | Allocations: 5621)
+
+
+Started GET "/tickets/7" for 127.0.0.1 at 2021-11-28 23:34:52 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3481)
+Completed 200 OK in 278ms (Views: 12.3ms | Allocations: 5622)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:43:41 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+Redirected to http://127.0.0.1:3000/error
+Completed 302 Found in 205ms (Allocations: 1852)
+
+
+Started GET "/error" for 127.0.0.1 at 2021-11-28 23:43:41 -0700
+Processing by ErrorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 347)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 152.9ms | Allocations: 23971)
+Completed 200 OK in 172ms (Views: 163.4ms | Allocations: 26134)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:46:33 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2269)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2367)
+Completed 500 Internal Server Error in 233ms (Allocations: 5921)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:48:08 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1358)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1433)
+Completed 500 Internal Server Error in 454ms (Allocations: 3039)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:49:11 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2269)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2367)
+Completed 500 Internal Server Error in 207ms (Allocations: 5917)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-28 23:50:06 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1358)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1433)
+Completed 500 Internal Server Error in 274ms (Allocations: 3043)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets" for 127.0.0.1 at 2021-11-28 23:50:13 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1348)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1416)
+Completed 500 Internal Server Error in 194ms (Allocations: 2704)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets" for 127.0.0.1 at 2021-11-28 23:51:05 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2269)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2367)
+Completed 500 Internal Server Error in 231ms (Allocations: 5929)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:     </thead>
+    11: 
+    12:     <tbody>
+    13:       <% @tickets.each do |ticket| %>
+    14:         <tr>
+    15:           <td><a href="/tickets/<%= ticket['id'] %>"><%= ticket['id'] %><a></td>
+    16:           <td><%= ticket['raw_subject'] %></td>
+  
+app/views/tickets/index.html.erb:13
+Started GET "/tickets" for 127.0.0.1 at 2021-11-28 23:52:12 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.0ms | Allocations: 7424)
+Completed 200 OK in 666ms (Views: 79.1ms | Allocations: 9470)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-28 23:52:44 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 656)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.7ms | Allocations: 7650)
+Completed 200 OK in 322ms (Views: 81.8ms | Allocations: 11278)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-29 01:07:53 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 683)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.8ms | Allocations: 7729)
+Completed 200 OK in 285ms (Views: 58.2ms | Allocations: 11356)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-29 01:08:49 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 4331)
+Completed 200 OK in 192ms (Views: 26.2ms | Allocations: 6381)
+
+
+Started GET "/tickets/21" for 127.0.0.1 at 2021-11-29 01:10:20 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"21"}
+Completed 500 Internal Server Error in 379ms (Allocations: 1948)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/tickets_controller.rb:24:in `show'
+Started GET "/tickets/21" for 127.0.0.1 at 2021-11-29 01:16:42 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"21"}
+Completed 500 Internal Server Error in 392ms (Allocations: 1919)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/application_controller.rb:28:in `request_and_handle_error'
+app/controllers/tickets_controller.rb:16:in `show'
+Started GET "/tickets/21" for 127.0.0.1 at 2021-11-29 01:17:05 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"21"}
+Completed 500 Internal Server Error in 348ms (Allocations: 2538)
+
+
+  
+NoMethodError (undefined method `read_body' for {"error"=>"Couldn't authenticate you"}:Hash):
+  
+app/controllers/tickets_controller.rb:17:in `show'
+Started GET "/tickets/21" for 127.0.0.1 at 2021-11-29 01:18:02 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 108.3ms | Allocations: 7031)
+Completed 200 OK in 341ms (Views: 113.2ms | Allocations: 9157)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-29 01:18:07 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 320)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 3758)
+Completed 200 OK in 204ms (Views: 17.6ms | Allocations: 5191)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-29 01:18:19 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 3892)
+Completed 200 OK in 583ms (Views: 16.8ms | Allocations: 7401)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2021-11-29 01:18:32 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 171)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3611)
+Completed 200 OK in 415ms (Views: 11.6ms | Allocations: 6741)
+
+
+Started GET "/tickets?page=2" for 127.0.0.1 at 2021-11-29 01:18:36 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3518)
+Completed 200 OK in 459ms (Views: 12.5ms | Allocations: 6037)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:18:39 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3609)
+Completed 200 OK in 476ms (Views: 12.6ms | Allocations: 7295)
+
+
+Started GET "/tickets?page=2" for 127.0.0.1 at 2021-11-29 01:18:42 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 3518)
+Completed 200 OK in 557ms (Views: 36.0ms | Allocations: 5399)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:18:43 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 3622)
+Completed 200 OK in 409ms (Views: 30.1ms | Allocations: 7310)
+
+
+Started GET "/tickets?page=2" for 127.0.0.1 at 2021-11-29 01:18:45 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3518)
+Completed 200 OK in 407ms (Views: 17.2ms | Allocations: 6090)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:18:47 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3609)
+Completed 200 OK in 542ms (Views: 13.5ms | Allocations: 7285)
+
+
+Started GET "/tickets?page=2" for 127.0.0.1 at 2021-11-29 01:18:48 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3531)
+Completed 200 OK in 288ms (Views: 10.9ms | Allocations: 6107)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:18:51 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 3609)
+Completed 200 OK in 428ms (Views: 42.7ms | Allocations: 6613)
+
+
+Started GET "/tickets/1" for 127.0.0.1 at 2021-11-29 01:20:02 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 3488)
+Completed 200 OK in 731ms (Views: 25.4ms | Allocations: 5121)
+
+
+Started GET "/tickets/100" for 127.0.0.1 at 2021-11-29 01:20:04 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3479)
+Completed 200 OK in 502ms (Views: 14.2ms | Allocations: 4882)
+
+
+Started GET "/tickets/12-" for 127.0.0.1 at 2021-11-29 01:20:13 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"12-"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3485)
+Completed 200 OK in 555ms (Views: 14.8ms | Allocations: 4783)
+
+
+Started GET "/tickets/11" for 127.0.0.1 at 2021-11-29 01:20:32 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"11"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3485)
+Completed 200 OK in 652ms (Views: 12.0ms | Allocations: 4965)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:20:42 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3622)
+Completed 200 OK in 491ms (Views: 13.1ms | Allocations: 7313)
+
+
+Started GET "/tickets?page=1" for 127.0.0.1 at 2021-11-29 01:25:18 -0700
+Processing by TicketsController#index as HTML
+  Parameters: {"page"=>"1"}
+Completed 200 OK in 763ms (Views: 1.4ms | Allocations: 3085)
+
+
+Started GET "/" for ::1 at 2021-11-29 01:47:47 -0700
+Processing by AuthController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/show.html.erb within layouts/application
+  Rendered auth/show.html.erb within layouts/application (Duration: 44.1ms | Allocations: 5809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 193.2ms | Allocations: 15471)
+Completed 200 OK in 291ms (Views: 207.0ms | Allocations: 17740)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:47:59 -0700
+Processing by TicketsController#index as HTML
+Redirected to http://localhost:3000/error/show?code=200
+Completed 500 Internal Server Error in 528ms (Allocations: 4108)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/tickets_controller.rb:14:in `index'
+Started GET "/tickets" for ::1 at 2021-11-29 01:48:15 -0700
+Processing by TicketsController#index as HTML
+Redirected to http://localhost:3000/error/show?code=200
+Completed 302 Found in 1249ms (Allocations: 3286)
+
+
+Started GET "/error/show?code=200" for ::1 at 2021-11-29 01:48:16 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"200"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 3897)
+Completed 200 OK in 33ms (Views: 31.1ms | Allocations: 4890)
+
+
+Started GET "/error/show?code=200" for ::1 at 2021-11-29 01:49:09 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"200"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 61)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 3778)
+Completed 200 OK in 24ms (Views: 22.7ms | Allocations: 4514)
+
+
+Started GET "/" for ::1 at 2021-11-29 01:49:10 -0700
+Processing by AuthController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/show.html.erb within layouts/application
+  Rendered auth/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2056)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 5679)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 6392)
+
+
+Started GET "/error/show?code=200" for ::1 at 2021-11-29 01:49:12 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"200"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3532)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 3948)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:49:16 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 506)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4250)
+Completed 200 OK in 481ms (Views: 13.6ms | Allocations: 7978)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:49:19 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 177)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3670)
+Completed 200 OK in 1043ms (Views: 12.9ms | Allocations: 6106)
+
+
+Started GET "/tickets/1-" for ::1 at 2021-11-29 01:49:24 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1-"}
+Redirected to http://localhost:3000/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute
+Completed 302 Found in 339ms (Allocations: 1434)
+
+
+Started GET "/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute" for ::1 at 2021-11-29 01:49:25 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"400", "error"=>{"message"=>"You passed an invalid value for the id attribute. Invalid parameter: id must be an integer from api/v2/tickets/show", "title"=>"Invalid attribute"}}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3548)
+Completed 200 OK in 12ms (Views: 11.8ms | Allocations: 3928)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:49:29 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3541)
+Completed 200 OK in 266ms (Views: 13.8ms | Allocations: 5023)
+
+
+Started GET "/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute" for ::1 at 2021-11-29 01:49:31 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"400", "error"=>{"message"=>"You passed an invalid value for the id attribute. Invalid parameter: id must be an integer from api/v2/tickets/show", "title"=>"Invalid attribute"}}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3532)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 3909)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:50:41 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3803)
+Completed 200 OK in 401ms (Views: 16.5ms | Allocations: 5773)
+
+
+Started GET "/tickets/1-" for ::1 at 2021-11-29 01:50:45 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1-"}
+Redirected to http://localhost:3000/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute
+Completed 302 Found in 556ms (Allocations: 1480)
+
+
+Started GET "/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute" for ::1 at 2021-11-29 01:50:46 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"400", "error"=>{"message"=>"You passed an invalid value for the id attribute. Invalid parameter: id must be an integer from api/v2/tickets/show", "title"=>"Invalid attribute"}}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 61)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3809)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 4544)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:50:53 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3541)
+Completed 200 OK in 580ms (Views: 15.4ms | Allocations: 5160)
+
+
+Started GET "/error/show?code=400&error%5Bmessage%5D=You+passed+an+invalid+value+for+the+id+attribute.+Invalid+parameter%3A+id+must+be+an+integer+from+api%2Fv2%2Ftickets%2Fshow&error%5Btitle%5D=Invalid+attribute" for ::1 at 2021-11-29 01:50:55 -0700
+Processing by ErrorController#show as HTML
+  Parameters: {"code"=>"400", "error"=>{"message"=>"You passed an invalid value for the id attribute. Invalid parameter: id must be an integer from api/v2/tickets/show", "title"=>"Invalid attribute"}}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3539)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 3912)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:53:18 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 3803)
+Completed 200 OK in 742ms (Views: 22.3ms | Allocations: 5758)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:53:20 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 3518)
+Completed 200 OK in 661ms (Views: 18.4ms | Allocations: 9713)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:53:28 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3531)
+Completed 200 OK in 1246ms (Views: 9.6ms | Allocations: 6508)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:54:42 -0700
+Processing by TicketsController#index as HTML
+Completed 500 Internal Server Error in 469ms (Allocations: 5649)
+
+
+  
+NameError (undefined local variable or method `code' for #<TicketsController:0x00000000007d00>
+Did you mean?  @code):
+  
+app/controllers/application_controller.rb:30:in `request_and_handle_error'
+app/controllers/tickets_controller.rb:8:in `index'
+Started GET "/tickets" for ::1 at 2021-11-29 01:54:56 -0700
+Processing by TicketsController#index as HTML
+Completed 500 Internal Server Error in 392ms (Allocations: 5633)
+
+
+  
+NameError (undefined local variable or method `code' for #<TicketsController:0x000000000084a8>
+Did you mean?  @code):
+  
+app/controllers/application_controller.rb:32:in `request_and_handle_error'
+app/controllers/tickets_controller.rb:8:in `index'
+Started GET "/tickets" for ::1 at 2021-11-29 01:55:10 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3947)
+Completed 200 OK in 390ms (Views: 17.0ms | Allocations: 7384)
+
+
+Started GET "/tickets/1" for ::1 at 2021-11-29 01:55:14 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 49)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3542)
+Completed 200 OK in 379ms (Views: 12.7ms | Allocations: 5821)
+
+
+Started GET "/tickets/1-" for ::1 at 2021-11-29 01:55:18 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1-"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3530)
+Completed 400 Bad Request in 292ms (Views: 14.3ms | Allocations: 4775)
+
+
+Started GET "/tickets/1-" for ::1 at 2021-11-29 01:55:32 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1-"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 3543)
+Completed 400 Bad Request in 458ms (Views: 20.1ms | Allocations: 4783)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 01:56:10 -0700
+Processing by TicketsController#index as HTML
+Completed 500 Internal Server Error in 539ms (Allocations: 3751)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/application_controller.rb:28:in `request_and_handle_error'
+app/controllers/tickets_controller.rb:8:in `index'
+Started GET "/tickets" for ::1 at 2021-11-29 01:56:29 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 3947)
+Completed 200 OK in 434ms (Views: 24.9ms | Allocations: 7391)
+
+
+Started GET "/tickets/-" for ::1 at 2021-11-29 01:59:25 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"-"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 4116)
+Completed 400 Bad Request in 371ms (Views: 24.2ms | Allocations: 6271)
+
+
+Started GET "/tickets/-" for ::1 at 2021-11-29 01:59:46 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"-"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4096)
+Completed 400 Bad Request in 318ms (Views: 16.5ms | Allocations: 6135)
+
+
+Started GET "/tickets" for ::1 at 2021-11-29 02:47:30 -0700
+Processing by TicketsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tickets/index.html.erb within layouts/application
+  Rendered tickets/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 7775)
+Completed 200 OK in 737ms (Views: 69.1ms | Allocations: 13265)
+
+
