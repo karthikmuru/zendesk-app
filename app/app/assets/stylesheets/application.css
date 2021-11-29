@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+h1{
+  font: 35px/1.5em "Lucida Grande",Arial,sans-serif;
+}
+h2{
+  font: 20px/1.5em "Lucida Grande",Arial,sans-serif;
+}
+table {
+  margin: auto;
+}
+
+.form {
+  font: 14px/1.5em "Lucida Grande",Arial,sans-serif;
+  display: inline-block;
+}
+
+.tickets {
+  color: #999999;
+  font: 14px/1.5em "Lucida Grande",Arial,sans-serif;
+  margin: 0 auto;
+  width: auto;
+}
+.id {
+  padding: 0px 20px;
+  font-size: x-large;
+}
+.subject {
+  padding: 0px 50px;
+  font-size: x-large;
+}
+.main {
+  text-align: center;
+}
