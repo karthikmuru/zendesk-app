@@ -3,7 +3,7 @@
 # Setup
 
 1. Install Docker.
-2. In the ./app/.env file add the API key under the name 'API_KEY'. The key must belong to a user of this account.
+2. In the `./app/.env` file add the API key under the name `API_KEY`. The key must belong to a user of this account.
 Example:
 ```
 API_KEY=<token>
