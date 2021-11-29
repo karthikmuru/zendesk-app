@@ -3248,3 +3248,14 @@ Processing by AuthController#show as HTML
 Completed 200 OK in 29ms (Views: 28.0ms | Allocations: 3943)
 
 
+Started GET "/tickets/1-" for ::1 at 2021-11-29 03:35:33 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1-"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/show.html.erb within layouts/application
+  Rendered error/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 338)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 83.4ms | Allocations: 7412)
+Completed 400 Bad Request in 481ms (Views: 111.6ms | Allocations: 11075)
+
+
